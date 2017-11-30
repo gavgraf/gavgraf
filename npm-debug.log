@@ -1,0 +1,799 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/bin/node',
+1 verbose cli   '/mnt/shared/sbin/npm',
+1 verbose cli   'remove',
+1 verbose cli   'npm',
+1 verbose cli   '-g' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose unbuild lib/node_modules/npm
+5 info preuninstall npm@2.14.12
+6 info uninstall npm@2.14.12
+7 verbose unbuild rmStuff npm@2.14.12 from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules
+8 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/bin/npm is being gently removed
+9 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+10 verbose rmMans man files are [ '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-README.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-access.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-adduser.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-bin.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-bugs.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-build.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-bundle.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-cache.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-completion.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-config.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-dedupe.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-deprecate.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-dist-tag.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-docs.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-edit.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-explore.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-help-search.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-help.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-init.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-install.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-link.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-logout.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-ls.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-outdated.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-owner.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-pack.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-ping.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-prefix.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-prune.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-publish.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-rebuild.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-repo.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-restart.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-rm.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-root.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-run-script.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-search.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-shrinkwrap.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-star.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-stars.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-start.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-stop.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-tag.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-team.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-test.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-uninstall.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-unpublish.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-update.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-version.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-view.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-whoami.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm.1',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-bin.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-bugs.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-cache.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-commands.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-config.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-deprecate.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-docs.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-edit.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-explore.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-help-search.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-init.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-install.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-link.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-load.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-ls.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-outdated.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-owner.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-pack.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-ping.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-prefix.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-prune.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-publish.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-rebuild.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-repo.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-restart.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-root.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-run-script.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-search.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-shrinkwrap.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-start.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-stop.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-tag.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-test.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-uninstall.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-unpublish.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-update.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-version.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-view.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-whoami.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm.3',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man5/npm-folders.5',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man5/npm-global.5',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man5/npm-json.5',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man5/npmrc.5',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man5/package.json.5',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-coding-style.7',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-config.7',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-developers.7',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-disputes.7',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-faq.7',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-index.7',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-orgs.7',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-registry.7',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-scope.7',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-scripts.7',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/removing-npm.7',
+10 verbose rmMans   '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/semver.7' ] in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man
+11 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-README.1
+12 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-README.1.1 is being gently removed
+13 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+14 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-access.1
+15 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-access.1.1 is being gently removed
+16 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+17 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-adduser.1
+18 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-adduser.1.1 is being gently removed
+19 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+20 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-bin.1
+21 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-bin.1.1 is being gently removed
+22 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+23 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-bugs.1
+24 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-bugs.1.1 is being gently removed
+25 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+26 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-build.1
+27 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-build.1.1 is being gently removed
+28 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+29 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-bundle.1
+30 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-bundle.1.1 is being gently removed
+31 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+32 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-cache.1
+33 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-cache.1.1 is being gently removed
+34 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+35 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-completion.1
+36 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-completion.1.1 is being gently removed
+37 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+38 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-config.1
+39 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-config.1.1 is being gently removed
+40 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+41 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-dedupe.1
+42 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-dedupe.1.1 is being gently removed
+43 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+44 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-deprecate.1
+45 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-deprecate.1.1 is being gently removed
+46 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+47 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-dist-tag.1
+48 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-dist-tag.1.1 is being gently removed
+49 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+50 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-docs.1
+51 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-docs.1.1 is being gently removed
+52 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+53 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-edit.1
+54 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-edit.1.1 is being gently removed
+55 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+56 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-explore.1
+57 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-explore.1.1 is being gently removed
+58 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+59 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-help-search.1
+60 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-help-search.1.1 is being gently removed
+61 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+62 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-help.1
+63 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-help.1.1 is being gently removed
+64 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+65 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-init.1
+66 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-init.1.1 is being gently removed
+67 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+68 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-install.1
+69 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-install.1.1 is being gently removed
+70 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+71 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-link.1
+72 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-link.1.1 is being gently removed
+73 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+74 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-logout.1
+75 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-logout.1.1 is being gently removed
+76 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+77 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-ls.1
+78 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-ls.1.1 is being gently removed
+79 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+80 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-outdated.1
+81 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-outdated.1.1 is being gently removed
+82 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+83 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-owner.1
+84 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-owner.1.1 is being gently removed
+85 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+86 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-pack.1
+87 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-pack.1.1 is being gently removed
+88 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+89 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-ping.1
+90 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-ping.1.1 is being gently removed
+91 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+92 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-prefix.1
+93 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-prefix.1.1 is being gently removed
+94 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+95 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-prune.1
+96 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-prune.1.1 is being gently removed
+97 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+98 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-publish.1
+99 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-publish.1.1 is being gently removed
+100 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+101 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-rebuild.1
+102 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-rebuild.1.1 is being gently removed
+103 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+104 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-repo.1
+105 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-repo.1.1 is being gently removed
+106 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+107 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-restart.1
+108 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-restart.1.1 is being gently removed
+109 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+110 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-rm.1
+111 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-rm.1.1 is being gently removed
+112 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+113 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-root.1
+114 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-root.1.1 is being gently removed
+115 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+116 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-run-script.1
+117 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-run-script.1.1 is being gently removed
+118 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+119 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-search.1
+120 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-search.1.1 is being gently removed
+121 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+122 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-shrinkwrap.1
+123 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-shrinkwrap.1.1 is being gently removed
+124 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+125 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-star.1
+126 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-star.1.1 is being gently removed
+127 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+128 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-stars.1
+129 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-stars.1.1 is being gently removed
+130 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+131 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-start.1
+132 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-start.1.1 is being gently removed
+133 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+134 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-stop.1
+135 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-stop.1.1 is being gently removed
+136 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+137 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-tag.1
+138 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-tag.1.1 is being gently removed
+139 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+140 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-team.1
+141 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-team.1.1 is being gently removed
+142 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+143 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-test.1
+144 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-test.1.1 is being gently removed
+145 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+146 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-uninstall.1
+147 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-uninstall.1.1 is being gently removed
+148 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+149 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-unpublish.1
+150 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-unpublish.1.1 is being gently removed
+151 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+152 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-update.1
+153 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-update.1.1 is being gently removed
+154 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+155 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-version.1
+156 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-version.1.1 is being gently removed
+157 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+158 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-view.1
+159 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-view.1.1 is being gently removed
+160 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+161 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm-whoami.1
+162 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-whoami.1.1 is being gently removed
+163 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+164 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man1/npm.1
+165 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm.1.1 is being gently removed
+166 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+167 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-bin.3
+168 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-bin.3.3 is being gently removed
+169 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+170 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-bugs.3
+171 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-bugs.3.3 is being gently removed
+172 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+173 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-cache.3
+174 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-cache.3.3 is being gently removed
+175 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+176 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-commands.3
+177 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-commands.3.3 is being gently removed
+178 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+179 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-config.3
+180 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-config.3.3 is being gently removed
+181 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+182 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-deprecate.3
+183 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-deprecate.3.3 is being gently removed
+184 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+185 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-docs.3
+186 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-docs.3.3 is being gently removed
+187 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+188 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-edit.3
+189 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-edit.3.3 is being gently removed
+190 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+191 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-explore.3
+192 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-explore.3.3 is being gently removed
+193 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+194 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-help-search.3
+195 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-help-search.3.3 is being gently removed
+196 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+197 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-init.3
+198 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-init.3.3 is being gently removed
+199 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+200 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-install.3
+201 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-install.3.3 is being gently removed
+202 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+203 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-link.3
+204 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-link.3.3 is being gently removed
+205 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+206 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-load.3
+207 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-load.3.3 is being gently removed
+208 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+209 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-ls.3
+210 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-ls.3.3 is being gently removed
+211 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+212 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-outdated.3
+213 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-outdated.3.3 is being gently removed
+214 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+215 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-owner.3
+216 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-owner.3.3 is being gently removed
+217 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+218 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-pack.3
+219 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-pack.3.3 is being gently removed
+220 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+221 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-ping.3
+222 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-ping.3.3 is being gently removed
+223 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+224 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-prefix.3
+225 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-prefix.3.3 is being gently removed
+226 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+227 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-prune.3
+228 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-prune.3.3 is being gently removed
+229 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+230 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-publish.3
+231 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-publish.3.3 is being gently removed
+232 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+233 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-rebuild.3
+234 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-rebuild.3.3 is being gently removed
+235 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+236 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-repo.3
+237 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-repo.3.3 is being gently removed
+238 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+239 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-restart.3
+240 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-restart.3.3 is being gently removed
+241 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+242 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-root.3
+243 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-root.3.3 is being gently removed
+244 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+245 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-run-script.3
+246 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-run-script.3.3 is being gently removed
+247 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+248 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-search.3
+249 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-search.3.3 is being gently removed
+250 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+251 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-shrinkwrap.3
+252 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-shrinkwrap.3.3 is being gently removed
+253 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+254 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-start.3
+255 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-start.3.3 is being gently removed
+256 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+257 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-stop.3
+258 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-stop.3.3 is being gently removed
+259 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+260 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-tag.3
+261 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-tag.3.3 is being gently removed
+262 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+263 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-test.3
+264 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-test.3.3 is being gently removed
+265 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+266 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-uninstall.3
+267 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-uninstall.3.3 is being gently removed
+268 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+269 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-unpublish.3
+270 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-unpublish.3.3 is being gently removed
+271 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+272 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-update.3
+273 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-update.3.3 is being gently removed
+274 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+275 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-version.3
+276 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-version.3.3 is being gently removed
+277 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+278 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-view.3
+279 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-view.3.3 is being gently removed
+280 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+281 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm-whoami.3
+282 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-whoami.3.3 is being gently removed
+283 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+284 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man3/npm.3
+285 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm.3.3 is being gently removed
+286 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+287 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man5/npm-folders.5
+288 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npm-folders.5.5 is being gently removed
+289 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+290 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man5/npm-global.5
+291 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npm-global.5.5 is being gently removed
+292 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+293 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man5/npm-json.5
+294 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npm-json.5.5 is being gently removed
+295 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+296 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man5/npmrc.5
+297 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npmrc.5.5 is being gently removed
+298 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+299 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man5/package.json.5
+300 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npm-package.json.5.5 is being gently removed
+301 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+302 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-coding-style.7
+303 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-coding-style.7.7 is being gently removed
+304 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+305 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-config.7
+306 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-config.7.7 is being gently removed
+307 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+308 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-developers.7
+309 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-developers.7.7 is being gently removed
+310 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+311 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-disputes.7
+312 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-disputes.7.7 is being gently removed
+313 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+314 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-faq.7
+315 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-faq.7.7 is being gently removed
+316 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+317 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-index.7
+318 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-index.7.7 is being gently removed
+319 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+320 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-orgs.7
+321 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-orgs.7.7 is being gently removed
+322 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+323 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-registry.7
+324 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-registry.7.7 is being gently removed
+325 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+326 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-scope.7
+327 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-scope.7.7 is being gently removed
+328 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+329 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/npm-scripts.7
+330 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-scripts.7.7 is being gently removed
+331 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+332 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/removing-npm.7
+333 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-removing-npm.7.7 is being gently removed
+334 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+335 silly rmMan preparing to remove /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/node_modules/npm/man/man7/semver.7
+336 silly gentlyRm /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-semver.7.7 is being gently removed
+337 silly gentlyRm verifying /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is an npm working directory
+338 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+339 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/bin/npm is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+340 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/bin/npm up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+341 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+342 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-README.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+343 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-README.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+344 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+345 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-access.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+346 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-access.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+347 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+348 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-adduser.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+349 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-adduser.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+350 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+351 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-bin.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+352 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-bin.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+353 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+354 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-bugs.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+355 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-bugs.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+356 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+357 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-build.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+358 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-build.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+359 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+360 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-bundle.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+361 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-bundle.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+362 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+363 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-cache.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+364 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-cache.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+365 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+366 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-completion.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+367 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-completion.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+368 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+369 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-config.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+370 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-config.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+371 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+372 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-dedupe.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+373 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-dedupe.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+374 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+375 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-deprecate.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+376 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-deprecate.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+377 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+378 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-dist-tag.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+379 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-dist-tag.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+380 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+381 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-docs.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+382 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-docs.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+383 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+384 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-edit.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+385 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-edit.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+386 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+387 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-explore.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+388 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-explore.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+389 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+390 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-help-search.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+391 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-help-search.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+392 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+393 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-help.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+394 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-help.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+395 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+396 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-init.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+397 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-init.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+398 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+399 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-install.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+400 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-install.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+401 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+402 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-link.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+403 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-link.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+404 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+405 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-logout.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+406 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-logout.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+407 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+408 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-ls.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+409 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-ls.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+410 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+411 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-outdated.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+412 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-outdated.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+413 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+414 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-owner.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+415 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-owner.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+416 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+417 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-pack.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+418 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-pack.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+419 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+420 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-ping.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+421 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-ping.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+422 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+423 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-prefix.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+424 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-prefix.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+425 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+426 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-prune.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+427 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-prune.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+428 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+429 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-publish.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+430 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-publish.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+431 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+432 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-rebuild.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+433 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-rebuild.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+434 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+435 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-repo.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+436 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-repo.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+437 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+438 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-restart.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+439 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-restart.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+440 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+441 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-rm.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+442 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-rm.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+443 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+444 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-root.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+445 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-root.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+446 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+447 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-run-script.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+448 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-run-script.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+449 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+450 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-search.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+451 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-search.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+452 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+453 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-shrinkwrap.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+454 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-shrinkwrap.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+455 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+456 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-star.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+457 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-star.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+458 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+459 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-stars.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+460 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-stars.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+461 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+462 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-start.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+463 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-start.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+464 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+465 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-stop.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+466 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-stop.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+467 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+468 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-tag.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+469 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-tag.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+470 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+471 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-team.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+472 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-team.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+473 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+474 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-test.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+475 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-test.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+476 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+477 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-uninstall.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+478 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-uninstall.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+479 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+480 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-unpublish.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+481 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-unpublish.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+482 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+483 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-update.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+484 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-update.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+485 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+486 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-version.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+487 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-version.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+488 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+489 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-view.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+490 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-view.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+491 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+492 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-whoami.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+493 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm-whoami.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+494 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+495 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm.1.1 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+496 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man1/npm.1.1 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+497 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+498 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-bin.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+499 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-bin.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+500 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+501 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-bugs.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+502 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-bugs.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+503 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+504 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-cache.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+505 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-cache.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+506 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+507 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-commands.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+508 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-commands.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+509 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+510 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-config.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+511 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-config.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+512 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+513 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-deprecate.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+514 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-deprecate.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+515 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+516 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-docs.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+517 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-docs.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+518 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+519 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-edit.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+520 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-edit.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+521 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+522 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-explore.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+523 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-explore.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+524 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+525 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-help-search.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+526 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-help-search.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+527 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+528 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-init.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+529 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-init.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+530 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+531 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-install.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+532 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-install.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+533 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+534 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-link.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+535 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-link.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+536 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+537 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-load.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+538 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-load.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+539 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+540 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-ls.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+541 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-ls.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+542 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+543 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-outdated.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+544 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-outdated.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+545 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+546 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-owner.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+547 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-owner.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+548 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+549 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-pack.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+550 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-pack.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+551 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+552 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-ping.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+553 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-ping.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+554 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+555 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-prefix.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+556 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-prefix.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+557 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+558 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-prune.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+559 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-prune.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+560 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+561 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-publish.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+562 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-publish.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+563 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+564 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-rebuild.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+565 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-rebuild.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+566 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+567 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-repo.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+568 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-repo.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+569 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+570 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-restart.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+571 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-restart.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+572 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+573 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-root.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+574 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-root.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+575 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+576 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-run-script.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+577 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-run-script.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+578 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+579 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-search.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+580 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-search.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+581 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+582 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-shrinkwrap.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+583 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-shrinkwrap.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+584 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+585 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-start.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+586 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-start.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+587 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+588 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-stop.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+589 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-stop.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+590 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+591 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-tag.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+592 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-tag.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+593 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+594 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-test.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+595 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-test.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+596 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+597 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-uninstall.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+598 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-uninstall.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+599 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+600 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-unpublish.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+601 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-unpublish.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+602 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+603 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-update.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+604 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-update.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+605 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+606 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-version.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+607 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-version.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+608 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+609 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-view.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+610 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-view.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+611 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+612 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-whoami.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+613 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm-whoami.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+614 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+615 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm.3.3 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+616 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man3/npm.3.3 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+617 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+618 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npm-folders.5.5 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+619 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npm-folders.5.5 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+620 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+621 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npm-global.5.5 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+622 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npm-global.5.5 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+623 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+624 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npm-json.5.5 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+625 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npm-json.5.5 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+626 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+627 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npmrc.5.5 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+628 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npmrc.5.5 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+629 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+630 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npm-package.json.5.5 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+631 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man5/npm-package.json.5.5 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+632 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+633 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-coding-style.7.7 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+634 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-coding-style.7.7 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+635 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+636 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-config.7.7 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+637 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-config.7.7 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+638 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+639 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-developers.7.7 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+640 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-developers.7.7 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+641 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+642 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-disputes.7.7 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+643 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-disputes.7.7 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+644 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+645 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-faq.7.7 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+646 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-faq.7.7 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+647 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+648 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-index.7.7 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+649 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-index.7.7 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+650 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+651 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-orgs.7.7 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+652 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-orgs.7.7 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+653 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+654 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-registry.7.7 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+655 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-registry.7.7 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+656 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+657 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-scope.7.7 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+658 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-scope.7.7 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+659 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+660 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-scripts.7.7 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+661 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-scripts.7.7 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+662 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+663 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-removing-npm.7.7 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+664 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-removing-npm.7.7 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+665 silly gentlyRm containing path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1 is under npm's control, in /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+666 silly gentlyRm deletion target /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-semver.7.7 is under /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+667 verbose gentlyRm vacuuming from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/share/man/man7/npm-semver.7.7 up to /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1
+668 silly vacuum-fs removing /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/bin/npm
+669 verbose stack Error: EROFS: read-only file system, unlink '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/bin/npm'
+669 verbose stack     at Error (native)
+670 verbose cwd /home/ubuntu/workspace
+671 error Linux 4.9.17-c9
+672 error argv "/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/bin/node" "/mnt/shared/sbin/npm" "remove" "npm" "-g"
+673 error node v4.3.1
+674 error npm  v2.14.12
+675 error path /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/bin/npm
+676 error code EROFS
+677 error errno -30
+678 error syscall unlink
+679 error rofs EROFS: read-only file system, unlink '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/bin/npm'
+679 error rofs This is most likely not a problem with npm itself
+679 error rofs and is related to the file system being read-only.
+679 error rofs
+679 error rofs Often virtualized file systems, or other file systems
+679 error rofs that don't support symlinks, give this error.
+680 verbose exit [ -30, true ]
